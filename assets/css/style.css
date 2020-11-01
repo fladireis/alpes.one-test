@@ -9957,6 +9957,13 @@ body .menu-wrapper .menu-left h3 a:hover {
   color: #333333;
   text-decoration: none;
 }
+body .banner .container-fluid, body .banner .container-sm, body .banner .container-md, body .banner .container-lg, body .banner .container-xl {
+  background-image: url(../../assets/img/banner.jpg);
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 body .banner .container-fluid .container, body .banner .container-sm .container, body .banner .container-md .container, body .banner .container-lg .container, body .banner .container-xl .container {
   height: 400px;
 }
@@ -9970,6 +9977,7 @@ body .contact-form .container .row {
   width: 270px;
   border-radius: 4px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  z-index: 9;
 }
 body .contact-form .container .row .form-title {
   display: flex;
@@ -10061,6 +10069,36 @@ body .car-design h5 {
   font-family: "Foundry Monoline Regular", sans-serif;
   font-size: 18px;
   color: #000000;
+}
+body .banner-2 {
+  position: relative;
+}
+body .banner-2 .container-fluid, body .banner-2 .container-sm, body .banner-2 .container-md, body .banner-2 .container-lg, body .banner-2 .container-xl {
+  background-image: url(../../assets/img/banner-2.jpg);
+  height: 415px;
+  margin-top: 40px;
+}
+body .banner-2 .container-fluid .container .col-md-9, body .banner-2 .container-sm .container .col-md-9, body .banner-2 .container-md .container .col-md-9, body .banner-2 .container-lg .container .col-md-9, body .banner-2 .container-xl .container .col-md-9 {
+  position: absolute;
+  bottom: 30px;
+  z-index: 2;
+}
+body .banner-2 .container-fluid .container h2, body .banner-2 .container-sm .container h2, body .banner-2 .container-md .container h2, body .banner-2 .container-lg .container h2, body .banner-2 .container-xl .container h2 {
+  color: #FFFFFF;
+  font-size: 34px;
+}
+body .banner-2 .container-fluid .container h5, body .banner-2 .container-sm .container h5, body .banner-2 .container-md .container h5, body .banner-2 .container-lg .container h5, body .banner-2 .container-xl .container h5 {
+  font-family: "Foundry Monoline Regular", sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+body .banner-2 .banner-2-overlay {
+  background: black;
+  background: linear-gradient(0deg, black 0%, rgba(255, 255, 255, 0) 100%);
+  width: 100%;
+  height: 245px;
+  bottom: 0;
+  position: absolute;
 }
 
 /*# sourceMappingURL=style.css.map */
