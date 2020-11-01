@@ -41,10 +41,15 @@ body {
                     &:hover{
                         color: #333333;
                         text-decoration: none;
-                        
+
                     }
                 }
             }
+        }
+    }
+    .banner{
+        .selo{
+            bottom: -245px;
         }
     }
 }

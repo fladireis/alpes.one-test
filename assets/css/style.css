@@ -9941,5 +9941,8 @@ body .menu-wrapper .menu-left h3 a:hover {
   color: #333333;
   text-decoration: none;
 }
+body .banner .selo {
+  bottom: -245px;
+}
 
 /*# sourceMappingURL=style.css.map */
