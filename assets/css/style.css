@@ -9935,6 +9935,11 @@ body .menu-wrapper .menu-left h3 a {
   font-family: "Foundry Monoline ExBdIta", sans-serif;
   font-size: 26px;
   color: #DF0209;
+  transition: all 0.2s ease-in-out;
+}
+body .menu-wrapper .menu-left h3 a:hover {
+  color: #333333;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

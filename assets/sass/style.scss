@@ -1,6 +1,7 @@
 // Imports
 @import "fonts";
 @import "../../libs/bootstrap/scss/bootstrap.scss";
+@import "variables";
 
 // Home
 body {
@@ -34,6 +35,13 @@ body {
                     font-family: $foundryExtraBoldItalic;
                     font-size: 26px;
                     color: #DF0209;
+                    transition: $transition;
+
+
+                    &:hover{
+                        color: #333333;
+                        text-decoration: none;
+                    }
                 }
             }
         }
