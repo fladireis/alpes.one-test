@@ -2,11 +2,9 @@
 @import "fonts";
 @import "../../libs/bootstrap/scss/bootstrap.scss";
 @import "variables";
-
 // Home
 body {
     font-family: $foundryExtraBoldItalic;
-
     .menu-wrapper {
         .topbar {
             background-color: #eeeeee;
@@ -14,42 +12,155 @@ body {
             a {
                 color: #707070;
                 font-size: 12px;
-                transition: all .2s ease-in-out;
-
+                transition: all 0.2s ease-in-out;
                 &:hover {
                     text-decoration: none;
                     color: #333333;
                 }
             }
         }
-        .menu-left{
-            h2{
+        .menu-left {
+            h2 {
                 font-family: $foundryMedIta;
                 font-style: italic;
                 font-size: 16px;
-                color: #727B7A;
+                color: #727b7a;
                 letter-spacing: -1px;
             }
-            h3{
-                a{
+            h3 {
+                a {
                     font-family: $foundryExtraBoldItalic;
                     font-size: 26px;
-                    color: #DF0209;
+                    color: #df0209;
                     transition: $transition;
-
-
-                    &:hover{
+                    &:hover {
                         color: #333333;
                         text-decoration: none;
-
                     }
                 }
             }
         }
     }
-    .banner{
-        .selo{
-            bottom: -245px;
+    .banner {
+        .container-fluid {
+            .container {
+                height: 400px;
+                .selo {
+                    bottom: 30px;
+                }
+            }
+        }
+    }
+    .contact-form {
+        .container {
+            .row {
+                background-color: #EEEEEE;
+                right: 130px;
+                top: 194px;
+                //top: 20px;
+                width: 270px;
+                border-radius: 4px;
+                box-shadow: 1px 1px 5px rgb(0 0 0 / 20%);
+                .form-title {
+                    display: flex;
+                    margin-bottom: 20px;
+                    img {
+                        margin-right: 10px;
+                    }
+                    .form-title-text {
+                        h2 {
+                            font-size: 14px;
+                            margin-bottom: 0;
+                            font-family: $foundryMedium;
+                            line-height: 20px;
+                        }
+                        h3 {
+                            font-size: 22px;
+                            margin-bottom: 0;
+                            line-height: 20px;
+                            font-family: $foundryExtraBold;
+                            color: #DF0209;
+                        }
+                    }
+                }
+                form {
+                    .form-icon {
+                        position: absolute;
+                        top: 10px;
+                        left: 13px;
+                        &.phone-icon {
+                            width: 16px;
+                        }
+                    }
+                    .form-group {
+                        margin-bottom: 7px;
+                        input {
+                            background-color: #F0F0F0;
+                            padding-left: 38px;
+                            font-family: $robotoRegular;
+                            font-size: 14px;
+                            &::placeholder {
+                                font-family: $robotoRegular;
+                                color: #959595;
+                                font-size: 14px;
+                            }
+                        }
+                        select {
+                            -webkit-appearance: none;
+                            -moz-appearance: none;
+                            appearance: none;
+                            background: url(../../assets/img/arrow.svg) #f0f0f0;
+                            background-repeat: no-repeat;
+                            background-position-x: 96%;
+                            background-position-y: 10px;
+                            font-family: $robotoRegular;
+                            padding-left: 38px;
+                            color: #959595;
+                            font-size: 14px
+                        }
+                        label {
+                            &.error {
+                                font-size: 11px;
+                                font-family: $robotoRegular;
+                                margin-bottom: 0px;
+                                line-height: 1;
+                                color: #DF0209;
+                            }
+                        }
+                        .form-control {
+                            &:focus {
+                                box-shadow: none;
+                                border-color: #9e9e9e;
+                            }
+                        }
+                    }
+                    .btn-submit {
+                        background-color: #1CB72A;
+                        color: #FFFFFF;
+                        width: 100%;
+                        height: 45px;
+                        font-family: $robotoBold;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+    .car-design {
+        margin-top: 40px;
+        img {
+            width: 100%;
+            border: 1px solid #D5D5D5;
+            margin-bottom: 5px;
+            padding: 2px;
+            &.main {
+                border: none;
+            }
+        }
+        h5 {
+            font-family: $foundryRegular;
+            font-size: 18px;
+            color: #000000;
         }
     }
 }

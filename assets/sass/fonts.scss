@@ -3,18 +3,47 @@
     src: url("../fonts/FoundryMonoline-ExBdIta.ttf") format("truetype");
 }
 
-$foundryExtraBoldItalic: "Foundry Monoline ExBdIta", sans-serif;
+$foundryExtraBold: "Foundry Monoline ExtraBold",
+sans-serif;
+@font-face {
+    font-family: "Foundry Monoline ExtraBold";
+    src: url("../fonts/FoundryMonoline-ExtraBold.ttf") format("truetype");
+}
 
+$foundryExtraBoldItalic: "Foundry Monoline ExBdIta",
+sans-serif;
 @font-face {
     font-family: "Foundry Monoline Medium";
     src: url("../fonts/FoundryMonoline-Medium.ttf") format("truetype");
 }
 
-$foundryMedium: "Foundry Monoline Medium", sans-serif;
+$foundryMedium: "Foundry Monoline Medium",
+sans-serif;
+@font-face {
+    font-family: "Foundry Monoline Regular";
+    src: url("../fonts/FoundryMonoline-Regular.ttf") format("truetype");
+}
 
+$foundryRegular: "Foundry Monoline Regular",
+sans-serif;
 @font-face {
     font-family: "Foundry Monoline MedIta";
     src: url("../fonts/FoundryMonoline-MedIta.ttf") format("truetype");
 }
 
-$foundryMedIta: "Foundry Monoline MedIta", sans-serif;
+$foundryMedIta: "Foundry Monoline MedIta",
+sans-serif;
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+$robotoRegular: "Roboto Regular",
+sans-serif;
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+$robotoBold: "Roboto Bold",
+sans-serif;

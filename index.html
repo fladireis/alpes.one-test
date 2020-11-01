@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste-técnico | ALPES.ONE</title>
+    <title>Teste Técnico Fladir | ALPES.ONE</title>
+    <link rel="icon" type="image/svg" href="assets/img/favicon.png">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -18,8 +19,7 @@
                         <a href="https://banzaihonda.com.br/" target="_blank">Ir para o Portal Banzai</a>
                     </div>
                     <div class="col-md-6 d-flex align-items-center justify-content-end">
-                        <img src="assets/img/facebook-placeholder-for-locate-places-on-maps.svg"
-                            alt="placeholder-for-locate-places-on-maps" class="mr-2">
+                        <img src="assets/img/facebook-placeholder-for-locate-places-on-maps.svg" alt="placeholder-for-locate-places-on-maps" class="mr-2">
                         <a href="https://www.honda.com.br/automoveis/concessionarias/busca" target="_blank">Encontre uma
                             concessionária</a>
 
@@ -50,14 +50,98 @@
     </section>
     <section class="banner position-relative">
         <div class="container-fluid p-0">
-            <img src="assets/img/banner.jpg" alt="" class="position-absolute">
+            <img src="assets/img/banner.jpg" alt="" class="position-absolute w-100">
             <div class="container">
-                <div class="row position-absolute">
-                    <img src="assets/img/os-eleitos-grande-vencedor-2017_0.png" alt="selo" class="selo position-relative">
+                <div class="row">
+                    <img src="assets/img/os-eleitos-grande-vencedor-2017_0.png" alt="selo" class="selo position-absolute">
                 </div>
             </div>
         </div>
     </section>
+    <section class="contact-form">
+        <div class="container position-relative">
+            <div class="row position-fixed py-3 px-1">
+                <div class="col-12">
+                    <div class="form-title">
+                        <img src="assets/img/phone-title.svg" alt="">
+                        <div class="form-title-text">
+                            <h2>Solicitar um</h2>
+                            <h3>CONTATO</h3>
+                        </div>
+                    </div>
+                    <form id="contactForm" method="get" action="">
+                        <div class="form-group position-relative">
+                            <img src="assets/img/user.svg" alt="user" class="form-icon">
+                            <input type="text" class="form-control" id="nome" placeholder="Nome" required>
+                        </div>
+                        <div class="form-group position-relative">
+                            <img src="assets/img/black-envelope.svg" alt="user" class="form-icon">
+                            <input type="email" class="form-control" id="email" placeholder="E-mail" required>
+                        </div>
+                        <div class="form-group position-relative">
+                            <img src="assets/img/phone.svg" alt="user" class="form-icon phone-icon">
+                            <input type="text" class="form-control" id="telefone" placeholder="Telefone" required>
+                        </div>
+                        <div class="form-group position-relative">
+                            <img src="assets/img/clock-circular-outline.svg" alt="user" class="form-icon">
+                            <select class="form-control" id="escolherHorario">
+                                <option>Escolha o horário</option>
+                                <option>10:00 hs</option>
+                                <option>11:00 hs</option>
+                                <option>12:00 hs</option>
+                                <option>13:00 hs</option>
+                                <option>14:00 hs</option>
+                                <option>15:00 hs</option>
+                                <option>16:00 hs</option>
+                              </select>
+                        </div>
+                        <div class="form-group position-relative">
+                            <img src="assets/img/facebook-placeholder-for-locate-places-on-maps.svg" alt="user" class="form-icon">
+                            <select class="form-control" id="escolherUnidade">
+                                <option>Escolha a Unidade</option>
+                                <option>Belo Horizonte</option>
+                                <option>Contagem</option>
+                                <option>Betim</option>
+                              </select>
+                        </div>
+                        <button type="submit" class="btn btn-submit">AGENDAR TEST DRIVE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="car-design">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="row align-items-center">
+                        <div class="col-12">
+                            <h2>A EMOÇÃO DE DIRIGIR LEVA VOCÊ MAIS LONGE</h2>
+                        </div>
+                        <div class="col-md-2 pr-0 mt-3">
+                            <img src="assets/img/design-1.jpg" alt="design-1">
+                            <img src="assets/img/design-2.jpg" alt="design-2">
+                            <img src="assets/img/design-3.jpg" alt="design-3">
+                        </div>
+                        <div class="col-md-10">
+                            <img src="assets/img/design-4.jpg" alt="design-4" class="main">
+                        </div>
+                        <div class="col-12 mt-4">
+                            <h5>
+                                O novo Civic Geração 10 traz um design único mudando a categoria de sedãs para sempre. Ele garante a melhor dirigibilidade com o máximo em sofisticação e conforto, atribuído por seu design interno e diferenciada ergonomia.
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div style="height: 1000px;"></div>
+    <script src="libs/jquery/dist/jquery.min.js"></script>
+    <script src="libs/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+    <script src="libs/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="libs/jquery-validation/dist/localization/messages_pt_BR.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
 </body>
 
 </html>

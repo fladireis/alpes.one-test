@@ -4,12 +4,28 @@
   src: url("../fonts/FoundryMonoline-ExBdIta.ttf") format("truetype");
 }
 @font-face {
+  font-family: "Foundry Monoline ExtraBold";
+  src: url("../fonts/FoundryMonoline-ExtraBold.ttf") format("truetype");
+}
+@font-face {
   font-family: "Foundry Monoline Medium";
   src: url("../fonts/FoundryMonoline-Medium.ttf") format("truetype");
 }
 @font-face {
+  font-family: "Foundry Monoline Regular";
+  src: url("../fonts/FoundryMonoline-Regular.ttf") format("truetype");
+}
+@font-face {
   font-family: "Foundry Monoline MedIta";
   src: url("../fonts/FoundryMonoline-MedIta.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("../fonts/Roboto-Bold.ttf") format("truetype");
 }
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
@@ -9928,21 +9944,123 @@ body .menu-wrapper .menu-left h2 {
   font-family: "Foundry Monoline MedIta", sans-serif;
   font-style: italic;
   font-size: 16px;
-  color: #727B7A;
+  color: #727b7a;
   letter-spacing: -1px;
 }
 body .menu-wrapper .menu-left h3 a {
   font-family: "Foundry Monoline ExBdIta", sans-serif;
   font-size: 26px;
-  color: #DF0209;
+  color: #df0209;
   transition: all 0.2s ease-in-out;
 }
 body .menu-wrapper .menu-left h3 a:hover {
   color: #333333;
   text-decoration: none;
 }
-body .banner .selo {
-  bottom: -245px;
+body .banner .container-fluid .container, body .banner .container-sm .container, body .banner .container-md .container, body .banner .container-lg .container, body .banner .container-xl .container {
+  height: 400px;
+}
+body .banner .container-fluid .container .selo, body .banner .container-sm .container .selo, body .banner .container-md .container .selo, body .banner .container-lg .container .selo, body .banner .container-xl .container .selo {
+  bottom: 30px;
+}
+body .contact-form .container .row {
+  background-color: #EEEEEE;
+  right: 130px;
+  top: 194px;
+  width: 270px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+body .contact-form .container .row .form-title {
+  display: flex;
+  margin-bottom: 20px;
+}
+body .contact-form .container .row .form-title img {
+  margin-right: 10px;
+}
+body .contact-form .container .row .form-title .form-title-text h2 {
+  font-size: 14px;
+  margin-bottom: 0;
+  font-family: "Foundry Monoline Medium", sans-serif;
+  line-height: 20px;
+}
+body .contact-form .container .row .form-title .form-title-text h3 {
+  font-size: 22px;
+  margin-bottom: 0;
+  line-height: 20px;
+  font-family: "Foundry Monoline ExtraBold", sans-serif;
+  color: #DF0209;
+}
+body .contact-form .container .row form .form-icon {
+  position: absolute;
+  top: 10px;
+  left: 13px;
+}
+body .contact-form .container .row form .form-icon.phone-icon {
+  width: 16px;
+}
+body .contact-form .container .row form .form-group {
+  margin-bottom: 7px;
+}
+body .contact-form .container .row form .form-group input {
+  background-color: #F0F0F0;
+  padding-left: 38px;
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 14px;
+}
+body .contact-form .container .row form .form-group input::placeholder {
+  font-family: "Roboto Regular", sans-serif;
+  color: #959595;
+  font-size: 14px;
+}
+body .contact-form .container .row form .form-group select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(../../assets/img/arrow.svg) #f0f0f0;
+  background-repeat: no-repeat;
+  background-position-x: 96%;
+  background-position-y: 10px;
+  font-family: "Roboto Regular", sans-serif;
+  padding-left: 38px;
+  color: #959595;
+  font-size: 14px;
+}
+body .contact-form .container .row form .form-group label.error {
+  font-size: 11px;
+  font-family: "Roboto Regular", sans-serif;
+  margin-bottom: 0px;
+  line-height: 1;
+  color: #DF0209;
+}
+body .contact-form .container .row form .form-group .form-control:focus {
+  box-shadow: none;
+  border-color: #9e9e9e;
+}
+body .contact-form .container .row form .btn-submit {
+  background-color: #1CB72A;
+  color: #FFFFFF;
+  width: 100%;
+  height: 45px;
+  font-family: "Roboto Bold", sans-serif;
+  font-size: 14px;
+}
+body .car-design {
+  margin-top: 40px;
+}
+body .car-design img {
+  width: 100%;
+  border: 1px solid #D5D5D5;
+  margin-bottom: 5px;
+  padding: 2px;
+}
+body .car-design img.main {
+  border: none;
+}
+body .car-design h5 {
+  font-family: "Foundry Monoline Regular", sans-serif;
+  font-size: 18px;
+  color: #000000;
 }
 
 /*# sourceMappingURL=style.css.map */
