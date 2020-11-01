@@ -1,0 +1,41 @@
+// Imports
+@import "fonts";
+@import "../../libs/bootstrap/scss/bootstrap.scss";
+
+// Home
+body {
+    font-family: $foundryExtraBoldItalic;
+
+    .menu-wrapper {
+        .topbar {
+            background-color: #eeeeee;
+            font-family: $foundryMedium;
+            a {
+                color: #707070;
+                font-size: 12px;
+                transition: all .2s ease-in-out;
+
+                &:hover {
+                    text-decoration: none;
+                    color: #333333;
+                }
+            }
+        }
+        .menu-left{
+            h2{
+                font-family: $foundryMedIta;
+                font-style: italic;
+                font-size: 16px;
+                color: #727B7A;
+                letter-spacing: -1px;
+            }
+            h3{
+                a{
+                    font-family: $foundryExtraBoldItalic;
+                    font-size: 26px;
+                    color: #DF0209;
+                }
+            }
+        }
+    }
+}

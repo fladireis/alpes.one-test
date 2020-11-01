@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Foundry Monoline ExBdIta";
+    src: url("../fonts/FoundryMonoline-ExBdIta.ttf") format("truetype");
+}
+
+$foundryExtraBoldItalic: "Foundry Monoline ExBdIta", sans-serif;
+
+@font-face {
+    font-family: "Foundry Monoline Medium";
+    src: url("../fonts/FoundryMonoline-Medium.ttf") format("truetype");
+}
+
+$foundryMedium: "Foundry Monoline Medium", sans-serif;
+
+@font-face {
+    font-family: "Foundry Monoline MedIta";
+    src: url("../fonts/FoundryMonoline-MedIta.ttf") format("truetype");
+}
+
+$foundryMedIta: "Foundry Monoline MedIta", sans-serif;
