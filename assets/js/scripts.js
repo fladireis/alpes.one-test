@@ -20,11 +20,15 @@
             nav: true,
             dots: true,
             navText: ['<img src="assets/img/carousel-arrow.svg" />', '<img src="assets/img/carousel-arrow.svg" />'],
-            slideBy: 3,
             lazyLoad: true,
             //autoplay: true,
             responsive: {
-
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 3
+                }
             }
         });
     });

@@ -69,6 +69,7 @@ body {
                 border-radius: 4px;
                 box-shadow: 1px 1px 5px rgb(0 0 0 / 20%);
                 z-index: 9;
+                position: fixed;
                 .form-title {
                     display: flex;
                     margin-bottom: 20px;
@@ -259,7 +260,7 @@ body {
                         img {
                             position: relative;
                             right: -2px;
-                            top: -2px;
+                            top: -1px;
                         }
                     }
                     span {
@@ -314,6 +315,10 @@ body {
         .card {
             border: 1px solid #D5D5D5;
             border-radius: 0;
+            img {
+                width: 100%;
+                padding: 20px;
+            }
             .card-body {
                 padding: 1rem;
                 p {
@@ -368,6 +373,7 @@ body {
             transition: $transition;
             height: 80px;
             align-items: center;
+            justify-content: center;
             img {
                 margin-right: 10px;
             }
@@ -436,6 +442,9 @@ body {
         h5 {
             font-family: $segoeUI;
             font-size: 12px;
+            color: #707070;
         }
     }
 }
+
+@import "media-queries";

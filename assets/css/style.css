@@ -10251,6 +10251,7 @@ body .contact-form .container .row {
   border-radius: 4px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
   z-index: 9;
+  position: fixed;
 }
 body .contact-form .container .row .form-title {
   display: flex;
@@ -10428,7 +10429,7 @@ body .carousel .owl-carousel .owl-nav button.owl-next {
 body .carousel .owl-carousel .owl-nav button.owl-next img {
   position: relative;
   right: -2px;
-  top: -2px;
+  top: -1px;
 }
 body .carousel .owl-carousel .owl-nav button span {
   font-size: 39px;
@@ -10467,6 +10468,10 @@ body .cars h5 {
 body .cars .card {
   border: 1px solid #D5D5D5;
   border-radius: 0;
+}
+body .cars .card img {
+  width: 100%;
+  padding: 20px;
 }
 body .cars .card .card-body {
   padding: 1rem;
@@ -10521,6 +10526,7 @@ body footer .btn-footer {
   transition: all 0.2s ease-in-out;
   height: 80px;
   align-items: center;
+  justify-content: center;
 }
 body footer .btn-footer img {
   margin-right: 10px;
@@ -10587,6 +10593,79 @@ body .bottom-footer .logo-footer {
 body .bottom-footer h5 {
   font-family: "Segoe UI", sans-serif;
   font-size: 12px;
+  color: #707070;
+}
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+  body .contact-form .container .row {
+    right: 40px;
+  }
+}
+@media (max-width: 767px) {
+  body .mobile-topbar {
+    background-color: #EEEEEE;
+  }
+  body .contact-form .container .row {
+    position: relative;
+    right: auto;
+    top: 20px;
+    width: auto;
+    margin: 0 5px;
+  }
+  body .banner-mobile img {
+    width: 100%;
+  }
+  body .banner-mobile .banner-civic-logo {
+    margin: 20px auto;
+    display: block;
+    width: auto;
+  }
+  body .car-design h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+  body .banner-2 .container-fluid, body .banner-2 .container-sm, body .banner-2 .container-md, body .banner-2 .container-lg, body .banner-2 .container-xl {
+    background-image: url(../../assets/img/banner-2-mobile.jpg);
+  }
+  body .banner-2 .container-fluid .col-md-9, body .banner-2 .container-sm .col-md-9, body .banner-2 .container-md .col-md-9, body .banner-2 .container-lg .col-md-9, body .banner-2 .container-xl .col-md-9 {
+    width: 90%;
+  }
+  body .banner-2 .container-fluid .col-md-9 h2, body .banner-2 .container-sm .col-md-9 h2, body .banner-2 .container-md .col-md-9 h2, body .banner-2 .container-lg .col-md-9 h2, body .banner-2 .container-xl .col-md-9 h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  body .banner-2 .container-fluid .col-md-9 h5, body .banner-2 .container-sm .col-md-9 h5, body .banner-2 .container-md .col-md-9 h5, body .banner-2 .container-lg .col-md-9 h5, body .banner-2 .container-xl .col-md-9 h5 {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  body .carousel .owl-carousel .owl-nav {
+    opacity: 1;
+    top: 20%;
+  }
+  body .carousel .owl-carousel h3 {
+    text-align: center;
+  }
+  body .carousel .owl-carousel p {
+    text-align: center;
+  }
+  body .cars h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  body .cars h5 {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  body .cars .card {
+    margin-bottom: 15px;
+  }
+  body footer .btn-footer {
+    margin-bottom: 10px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
