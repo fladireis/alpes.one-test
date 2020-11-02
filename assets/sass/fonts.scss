@@ -61,3 +61,10 @@ sans-serif;
 
 $robotoLight: "Roboto Light",
 sans-serif;
+@font-face {
+    font-family: "Segoe UI";
+    src: url("../fonts/segoe-ui.ttf") format("truetype");
+}
+
+$segoeUI: "Segoe UI",
+sans-serif;

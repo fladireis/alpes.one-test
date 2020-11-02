@@ -7,7 +7,7 @@
 // Home
 body {
     font-family: $foundryExtraBoldItalic;
-    .menu-wrapper {
+    header {
         .topbar {
             background-color: #eeeeee;
             font-family: $foundryMedium;
@@ -325,7 +325,7 @@ body {
                 a {
                     font-family: $robotoLight;
                     font-size: 14px;
-                    margin-top: 35px;
+                    margin-top: 15px;
                     width: 100%;
                     background: transparent;
                     border: 1px solid #D5D5D5;
@@ -352,6 +352,90 @@ body {
                     }
                 }
             }
+        }
+    }
+    footer {
+        background: #EEEEEE;
+        margin-top: 60px;
+        padding: 20px 0;
+        .btn-footer {
+            display: flex;
+            text-align: left;
+            border: 1px solid #df0209;
+            border-radius: 5px;
+            background-color: #FFFFFF;
+            padding: 15px;
+            transition: $transition;
+            height: 80px;
+            align-items: center;
+            img {
+                margin-right: 10px;
+            }
+            h2 {
+                font-size: 14px;
+                margin-bottom: 0;
+                font-family: $foundryMedium;
+                line-height: 20px;
+                color: #000000;
+                margin-top: 0;
+            }
+            h3 {
+                font-size: 22px;
+                margin-bottom: 0;
+                line-height: 20px;
+                font-family: $foundryExtraBold;
+                color: #DF0209;
+            }
+            &:hover {
+                text-decoration: none;
+                box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+            }
+            &.btn-ca {
+                display: block;
+                h2 {
+                    text-align: center;
+                    font-family: $foundryMedIta;
+                    font-style: italic;
+                    font-size: 16px;
+                    color: #727b7a;
+                    letter-spacing: -1px;
+                    margin-bottom: 7px;
+                }
+                h3 {
+                    font-family: $foundryExtraBold;
+                    font-size: 26px;
+                    text-align: center;
+                }
+            }
+        }
+        h2 {
+            margin-top: 18px;
+            font-size: 24px;
+        }
+        .social {
+            display: flex;
+            justify-content: center;
+            a {
+                margin-left: 20px;
+                &:hover {
+                    img {
+                        filter: brightness(1.1);
+                    }
+                }
+                img {
+                    transition: $transition;
+                }
+            }
+        }
+    }
+    .bottom-footer {
+        padding: 20px 0;
+        .logo-footer {
+            width: 110px;
+        }
+        h5 {
+            font-family: $segoeUI;
+            font-size: 12px;
         }
     }
 }

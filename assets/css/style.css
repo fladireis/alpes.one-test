@@ -35,6 +35,10 @@
   font-family: "Roboto Light";
   src: url("../fonts/Roboto-Light.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Segoe UI";
+  src: url("../fonts/segoe-ui.ttf") format("truetype");
+}
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -10196,33 +10200,33 @@ h3 {
 body {
   font-family: "Foundry Monoline ExBdIta", sans-serif;
 }
-body .menu-wrapper .topbar {
+body header .topbar {
   background-color: #eeeeee;
   font-family: "Foundry Monoline Medium", sans-serif;
 }
-body .menu-wrapper .topbar a {
+body header .topbar a {
   color: #707070;
   font-size: 12px;
   transition: all 0.2s ease-in-out;
 }
-body .menu-wrapper .topbar a:hover {
+body header .topbar a:hover {
   text-decoration: none;
   color: #333333;
 }
-body .menu-wrapper .menu-left h2 {
+body header .menu-left h2 {
   font-family: "Foundry Monoline MedIta", sans-serif;
   font-style: italic;
   font-size: 16px;
   color: #727b7a;
   letter-spacing: -1px;
 }
-body .menu-wrapper .menu-left h3 a {
+body header .menu-left h3 a {
   font-family: "Foundry Monoline ExBdIta", sans-serif;
   font-size: 26px;
   color: #df0209;
   transition: all 0.2s ease-in-out;
 }
-body .menu-wrapper .menu-left h3 a:hover {
+body header .menu-left h3 a:hover {
   color: #333333;
   text-decoration: none;
 }
@@ -10476,7 +10480,7 @@ body .cars .card .card-body p {
 body .cars .card .card-body a {
   font-family: "Roboto Light", sans-serif;
   font-size: 14px;
-  margin-top: 35px;
+  margin-top: 15px;
   width: 100%;
   background: transparent;
   border: 1px solid #D5D5D5;
@@ -10501,6 +10505,88 @@ body .cars .card .card-body a:hover {
 body .cars .card .card-body a:hover:before {
   opacity: 1;
   text-indent: 0px;
+}
+body footer {
+  background: #EEEEEE;
+  margin-top: 60px;
+  padding: 20px 0;
+}
+body footer .btn-footer {
+  display: flex;
+  text-align: left;
+  border: 1px solid #df0209;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  padding: 15px;
+  transition: all 0.2s ease-in-out;
+  height: 80px;
+  align-items: center;
+}
+body footer .btn-footer img {
+  margin-right: 10px;
+}
+body footer .btn-footer h2 {
+  font-size: 14px;
+  margin-bottom: 0;
+  font-family: "Foundry Monoline Medium", sans-serif;
+  line-height: 20px;
+  color: #000000;
+  margin-top: 0;
+}
+body footer .btn-footer h3 {
+  font-size: 22px;
+  margin-bottom: 0;
+  line-height: 20px;
+  font-family: "Foundry Monoline ExtraBold", sans-serif;
+  color: #DF0209;
+}
+body footer .btn-footer:hover {
+  text-decoration: none;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+}
+body footer .btn-footer.btn-ca {
+  display: block;
+}
+body footer .btn-footer.btn-ca h2 {
+  text-align: center;
+  font-family: "Foundry Monoline MedIta", sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  color: #727b7a;
+  letter-spacing: -1px;
+  margin-bottom: 7px;
+}
+body footer .btn-footer.btn-ca h3 {
+  font-family: "Foundry Monoline ExtraBold", sans-serif;
+  font-size: 26px;
+  text-align: center;
+}
+body footer h2 {
+  margin-top: 18px;
+  font-size: 24px;
+}
+body footer .social {
+  display: flex;
+  justify-content: center;
+}
+body footer .social a {
+  margin-left: 20px;
+}
+body footer .social a:hover img {
+  filter: brightness(1.1);
+}
+body footer .social a img {
+  transition: all 0.2s ease-in-out;
+}
+body .bottom-footer {
+  padding: 20px 0;
+}
+body .bottom-footer .logo-footer {
+  width: 110px;
+}
+body .bottom-footer h5 {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 12px;
 }
 
 /*# sourceMappingURL=style.css.map */
