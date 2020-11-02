@@ -1,6 +1,8 @@
 // Imports
 @import "fonts";
 @import "../../libs/bootstrap/scss/bootstrap.scss";
+@import "../../libs/owl.carousel/src/scss/owl.carousel.scss";
+@import "../../libs/owl.carousel/src/scss/owl.theme.default.scss";
 @import "variables";
 // Home
 body {
@@ -147,6 +149,12 @@ body {
                         height: 45px;
                         font-family: $robotoBold;
                         font-size: 14px;
+                        border: 2px solid #1CB72A;
+                        transition: $transition;
+                        &:hover {
+                            background-color: #EEEEEE;
+                            color: #1cb72a;
+                        }
                     }
                 }
             }
@@ -199,6 +207,151 @@ body {
             height: 245px;
             bottom: 0;
             position: absolute;
+        }
+    }
+    .carousel {
+        margin-top: 40px;
+        .owl-carousel {
+            .owl-item {
+                .item {
+                    img {
+                        border: 1px solid #D5D5D5;
+                        padding: 5px;
+                    }
+                    h3 {
+                        margin-top: 15px;
+                        font-size: 20px;
+                    }
+                    p {
+                        font-family: $foundryLight;
+                        font-size: 14px;
+                    }
+                }
+            }
+            .owl-nav {
+                opacity: 0;
+                transition: $transition;
+                width: 100%;
+                position: absolute;
+                top: 15%;
+                button {
+                    background: rgb(255 255 255 / 50%) !important;
+                    width: 39px;
+                    height: 39px;
+                    border-radius: 100%;
+                    transition: $transition;
+                    &:focus {
+                        outline: none;
+                    }
+                    &.owl-prev {
+                        left: 7px;
+                        position: absolute;
+                        img {
+                            transform: rotate(180deg);
+                            position: relative;
+                            left: -2px;
+                            top: -2px;
+                        }
+                    }
+                    &.owl-next {
+                        right: 7px;
+                        position: absolute;
+                        img {
+                            position: relative;
+                            right: -2px;
+                            top: -2px;
+                        }
+                    }
+                    span {
+                        font-size: 39px;
+                        line-height: 0;
+                        font-family: $robotoRegular;
+                    }
+                    &:hover {
+                        background: rgb(255 255 255 / 70%) !important;
+                    }
+                }
+            }
+            .owl-dots {
+                button {
+                    &:focus {
+                        outline: none;
+                    }
+                    &.owl-dot {
+                        span {
+                            width: 15px;
+                            height: 15px;
+                        }
+                    }
+                    &.active {
+                        span {
+                            background: #808080;
+                        }
+                    }
+                    &:hover {
+                        span {
+                            transition: $transition
+                        }
+                    }
+                    span {
+                        margin: 5px 10px;
+                    }
+                }
+            }
+            &:hover {
+                .owl-nav {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    .cars {
+        margin-top: 50px;
+        h5 {
+            font-family: $foundryRegular;
+            font-size: 18px;
+        }
+        .card {
+            border: 1px solid #D5D5D5;
+            border-radius: 0;
+            .card-body {
+                padding: 1rem;
+                p {
+                    font-family: $foundryLight;
+                    font-size: 14px;
+                    text-align: center;
+                    line-height: 1.2rem;
+                }
+                a {
+                    font-family: $robotoLight;
+                    font-size: 14px;
+                    margin-top: 35px;
+                    width: 100%;
+                    background: transparent;
+                    border: 1px solid #D5D5D5;
+                    color: #000000;
+                    position: relative;
+                    transition: $transition;
+                    &:before {
+                        content: "+";
+                        position: absolute;
+                        right: 50px;
+                        top: 50%;
+                        transform: translate(0, -50%);
+                        font-size: 18px;
+                        opacity: 0;
+                        transition: $transition;
+                    }
+                    &:hover {
+                        text-indent: -15px;
+                        border: 1px solid #333333;
+                        &:before {
+                            opacity: 1;
+                            text-indent: 0px;
+                        }
+                    }
+                }
+            }
         }
     }
 }

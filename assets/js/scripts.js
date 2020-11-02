@@ -12,5 +12,20 @@
         $('#telefone').mask(maskBehavior, options);
 
         $("#contactForm").validate();
+
+        $('.owl-carousel').owlCarousel({
+            items: 3,
+            loop: true,
+            margin: 25,
+            nav: true,
+            dots: true,
+            navText: ['<img src="assets/img/carousel-arrow.svg" />', '<img src="assets/img/carousel-arrow.svg" />'],
+            slideBy: 3,
+            lazyLoad: true,
+            //autoplay: true,
+            responsive: {
+
+            }
+        });
     });
 })(jQuery);

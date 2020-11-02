@@ -27,6 +27,13 @@ sans-serif;
 $foundryRegular: "Foundry Monoline Regular",
 sans-serif;
 @font-face {
+    font-family: "Foundry Monoline Light";
+    src: url("../fonts/FoundryMonoline-Light.ttf") format("truetype");
+}
+
+$foundryLight: "Foundry Monoline Light",
+sans-serif;
+@font-face {
     font-family: "Foundry Monoline MedIta";
     src: url("../fonts/FoundryMonoline-MedIta.ttf") format("truetype");
 }
@@ -46,4 +53,11 @@ sans-serif;
 }
 
 $robotoBold: "Roboto Bold",
+sans-serif;
+@font-face {
+    font-family: "Roboto Light";
+    src: url("../fonts/Roboto-Light.ttf") format("truetype");
+}
+
+$robotoLight: "Roboto Light",
 sans-serif;
