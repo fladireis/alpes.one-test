@@ -10596,6 +10596,11 @@ body .bottom-footer h5 {
   color: #707070;
 }
 
+@media (min-width: 1500px) and (max-width: 2200px) {
+  body .contact-form .container .row {
+    right: 340px;
+  }
+}
 @media (min-width: 1024px) and (max-width: 1365px) {
   body .contact-form .container .row {
     right: 40px;

@@ -7,6 +7,7 @@
 // Home
 body {
     font-family: $foundryExtraBoldItalic;
+    // Navigation
     header {
         .topbar {
             background-color: #eeeeee;
@@ -43,6 +44,7 @@ body {
             }
         }
     }
+    // Main Banner
     .banner {
         .container-fluid {
             background-image: url(../../assets/img/banner.jpg);
@@ -58,6 +60,7 @@ body {
             }
         }
     }
+    // Contact Form
     .contact-form {
         .container {
             .row {
@@ -161,6 +164,7 @@ body {
             }
         }
     }
+    // Car Design Section
     .car-design {
         margin-top: 40px;
         img {
@@ -178,6 +182,7 @@ body {
             color: #000000;
         }
     }
+    // Banner 2
     .banner-2 {
         position: relative;
         .container-fluid {
@@ -210,6 +215,7 @@ body {
             position: absolute;
         }
     }
+    // Carousel
     .carousel {
         margin-top: 40px;
         .owl-carousel {
@@ -226,6 +232,7 @@ body {
                     p {
                         font-family: $foundryLight;
                         font-size: 14px;
+                        line-height: 16px;
                     }
                 }
             }
@@ -306,6 +313,7 @@ body {
             }
         }
     }
+    // Cars Section
     .cars {
         margin-top: 50px;
         h5 {
@@ -359,6 +367,7 @@ body {
             }
         }
     }
+    // Footer
     footer {
         background: #EEEEEE;
         margin-top: 60px;
@@ -434,6 +443,7 @@ body {
             }
         }
     }
+    //Bottom Footer
     .bottom-footer {
         padding: 20px 0;
         .logo-footer {
@@ -447,4 +457,5 @@ body {
     }
 }
 
+// Media Queries Import
 @import "media-queries";

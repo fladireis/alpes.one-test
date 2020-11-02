@@ -1,98 +1,110 @@
-    @media(min-width: 1024px) and (max-width: 1365px) {
-        body {
-            .contact-form {
-                .container {
-                    .row {
-                        right: 40px;
-                    }
+@media(min-width: 1500px) and (max-width: 2200px) {
+    body {
+        .contact-form {
+            .container {
+                .row {
+                    right: 340px;
                 }
             }
         }
     }
-    
-    @media(max-width: 767px) {
-        body {
-            .mobile-topbar {
-                background-color: #EEEEEE;
-            }
-            .contact-form {
-                .container {
-                    .row {
-                        position: relative;
-                        right: auto;
-                        top: 20px;
-                        width: auto;
-                        margin: 0 5px;
-                    }
+}
+
+@media(min-width: 1024px) and (max-width: 1365px) {
+    body {
+        .contact-form {
+            .container {
+                .row {
+                    right: 40px;
                 }
             }
-            .banner-mobile {
-                img {
-                    width: 100%;
-                }
-                .banner-civic-logo {
-                    margin: 20px auto;
-                    display: block;
+        }
+    }
+}
+
+@media(max-width: 767px) {
+    body {
+        .mobile-topbar {
+            background-color: #EEEEEE;
+        }
+        .contact-form {
+            .container {
+                .row {
+                    position: relative;
+                    right: auto;
+                    top: 20px;
                     width: auto;
-                }
-            }
-            .car-design {
-                h2 {
-                    font-size: 24px;
-                    text-align: center;
-                    margin-bottom: 25px;
-                    margin-top: 25px;
-                }
-            }
-            .banner-2 {
-                .container-fluid {
-                    background-image: url(../../assets/img/banner-2-mobile.jpg);
-                    .col-md-9 {
-                        width: 90%;
-                        h2 {
-                            font-size: 24px;
-                            text-align: center;
-                        }
-                        h5 {
-                            font-size: 15px;
-                            text-align: center;
-                            margin-top: 10px;
-                        }
-                    }
-                }
-            }
-            .carousel {
-                .owl-carousel {
-                    .owl-nav {
-                        opacity: 1;
-                        top: 20%;
-                    }
-                    h3 {
-                        text-align: center;
-                    }
-                    p {
-                        text-align: center;
-                    }
-                }
-            }
-            .cars {
-                h2 {
-                    font-size: 24px;
-                    text-align: center;
-                }
-                h5 {
-                    font-size: 16px;
-                    text-align: center;
-                    margin-bottom: 15px;
-                }
-                .card {
-                    margin-bottom: 15px;
-                }
-            }
-            footer {
-                .btn-footer {
-                    margin-bottom: 10px;
+                    margin: 0 5px;
                 }
             }
         }
+        .banner-mobile {
+            img {
+                width: 100%;
+            }
+            .banner-civic-logo {
+                margin: 20px auto;
+                display: block;
+                width: auto;
+            }
+        }
+        .car-design {
+            h2 {
+                font-size: 24px;
+                text-align: center;
+                margin-bottom: 25px;
+                margin-top: 25px;
+            }
+        }
+        .banner-2 {
+            .container-fluid {
+                background-image: url(../../assets/img/banner-2-mobile.jpg);
+                .col-md-9 {
+                    width: 90%;
+                    h2 {
+                        font-size: 24px;
+                        text-align: center;
+                    }
+                    h5 {
+                        font-size: 15px;
+                        text-align: center;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+        .carousel {
+            .owl-carousel {
+                .owl-nav {
+                    opacity: 1;
+                    top: 20%;
+                }
+                h3 {
+                    text-align: center;
+                }
+                p {
+                    text-align: center;
+                }
+            }
+        }
+        .cars {
+            h2 {
+                font-size: 24px;
+                text-align: center;
+            }
+            h5 {
+                font-size: 16px;
+                text-align: center;
+                margin-bottom: 15px;
+            }
+            .card {
+                margin-bottom: 15px;
+            }
+        }
+        footer {
+            .btn-footer {
+                margin-bottom: 10px;
+            }
+        }
     }
+}

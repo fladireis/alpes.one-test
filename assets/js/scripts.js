@@ -1,5 +1,6 @@
 (function($) {
     $(document).ready(function() {
+        // Phone Mask
         var maskBehavior = function(val) {
                 return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
             },
@@ -11,8 +12,10 @@
 
         $('#telefone').mask(maskBehavior, options);
 
+        // Form Validation
         $("#contactForm").validate();
 
+        // Owl Carousel
         $('.owl-carousel').owlCarousel({
             items: 3,
             loop: true,
